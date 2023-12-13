@@ -4,8 +4,8 @@ function main(): void {
     const button = document.querySelector("#testButton");
     button?.addEventListener("click", testSubmitHandler);
 
-    const button = document.querySelector("#testButtonFunc");
-    button?.addEventListener("click", testSubmitFunctionHandler);
+    const buttonFunc = document.querySelector("#testButtonFunc");
+    buttonFunc?.addEventListener("click", testSubmitFunctionHandler);
 }
 
 function testSubmitHandler(e: Event): void {
